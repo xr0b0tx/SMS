@@ -1,8 +1,7 @@
 <?php 
 set_time_limit(0);
 error_reporting(15);
-include_once('msg.php');
-include_once('util.php');
+//include_once('util.php'); <-- if you want connect on table client
 $nFreeMsg=10;
 $nFreeMsg_On_Number=10;
 //this is for sms account
